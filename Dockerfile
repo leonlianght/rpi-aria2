@@ -4,7 +4,7 @@ ARG VERSION
 
 RUN apk add --no-cache --update aria2=${VERSION} && \
     mkdir -p /conf && \
-    mkdir -p /download && \
+    mkdir -p /downloads && \
     addgroup -g 2000 aria && \
     adduser -S -h /conf -s /bin/false -u 2000 -G aria aria && \
     touch /tmp/session.txt && \
