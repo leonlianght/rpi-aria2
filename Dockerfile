@@ -1,6 +1,6 @@
 FROM multiarch/alpine:aarch64-latest-stable
 
-ARG VERSION
+ARG VERSION=1.35.0
 
 RUN apk add --no-cache --update aria2=${VERSION} && \
     mkdir -p /conf && \
