@@ -2,7 +2,7 @@ FROM multiarch/alpine:aarch64-latest-stable
 
 ARG VERSION=1.35.0
 
-RUN apk add --no-cache --update aria2=${VERSION} && \
+RUN apk add --no-cache --update aria2 && \
     mkdir -p /conf && \
     mkdir -p /downloads && \
     addgroup -g 2000 aria && \
