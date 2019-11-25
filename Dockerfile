@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM multiarch/alpine:aarch64-latest-stable
 
 ARG VERSION
 
