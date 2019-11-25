@@ -1,1 +1,1 @@
-#  This repository is deprecated #
+#  aria2 for Raspberry Pi
