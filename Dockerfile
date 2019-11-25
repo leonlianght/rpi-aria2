@@ -1,4 +1,4 @@
-FROM multiarch/alpine:aarch64-latest-stable
+FROM multiarch/alpine:armhf-latest-stable
 
 ARG VERSION=1.35.0
 
